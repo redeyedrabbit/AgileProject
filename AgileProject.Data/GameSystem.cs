@@ -16,9 +16,9 @@ namespace AgileProject.Data
         public string Name { get; set; }
 
         [Required]
-        public string Description { get; set; }
+        public string Manufacturer { get; set; }
 
         [Required]
-        public decimal Price { get; set; }
+        public DateTime ReleaseDate { get; set; }
     }
 }
