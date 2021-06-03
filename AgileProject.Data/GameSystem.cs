@@ -10,7 +10,7 @@ namespace AgileProject.Data
     public class GameSystem
     {
         [Key]
-        public int NoteId { get; set; }
+        public int GameSystemId { get; set; }
 
         [Required]
         public string Name { get; set; }
