@@ -17,7 +17,7 @@ namespace AgileProject.Services
             _userId = userId;
         }
 
-        public CreateGame(GameCreate model)
+        public bool CreateGame(GameCreate model)
         {
             var entity = new Game()
             {
@@ -27,9 +27,20 @@ namespace AgileProject.Services
             };
             using (var ctx = new ApplicationDbContext())
             {
-                var query =
-                    ctx
+                ctx.Games.Add(entity);
+                return ctx.SaveChanges() == 1;
             }
         }
+        //public IEnumerable<GameListItem> GetGames()
+        //{
+        //    using (var ctx = new ApplicationDbContext())
+        //    {
+        //        var query =
+        //            ctx
+        //            .Games
+        //            .Select (
+        //                )
+        //    }
+        //}
     }
 }
