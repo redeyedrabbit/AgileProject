@@ -55,11 +55,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GenreService.cs" />
+    <Compile Include="GameService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgileProject.Data\AgileProject.Data.csproj">
+      <Project>{D6757D62-A7A0-41CA-B23C-28F3ED11A7FB}</Project>
+      <Name>AgileProject.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AgileProject.Models\AgileProject.Models.csproj">
+      <Project>{267FE846-B400-425A-8C3F-9BF214C7CAC7}</Project>
+      <Name>AgileProject.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

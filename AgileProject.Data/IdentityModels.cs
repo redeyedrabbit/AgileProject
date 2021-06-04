@@ -1,5 +1,7 @@
-﻿using System.Security.Claims;
+﻿using System.Data.Entity;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using AgileProject.Data;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
@@ -29,5 +31,8 @@ namespace AgileProject.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
+        public DbSet<GameSystem> GameSystems { get; set; }
     }
 }
