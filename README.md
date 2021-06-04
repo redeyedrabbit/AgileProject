@@ -3,9 +3,9 @@
 
 ## Table of Contents
 * [User Stories](#user-stories)
-* [Tasks/Tickets](#tasks)
-* [Acceptance Criteria/Tests](#acceptance-criteria)
-* [Sprint Planning](#spring-planning)
+* [Tasks and Tickets](#tasks-and-tickets)
+* [Acceptance Criteria and Tests](#acceptance-criteria-and-tests)
+* [Sprint Planning](#sprint-planning)
 * [Assigned Tasks](#assigned-tasks)
 * [Created By](#created-by)
 * [Screenshots](#screenshots)
@@ -36,8 +36,7 @@
 11. As a game developer, I want to see the star ratings of a given game, so that I can compare my game with my competitors' games. 
 
 
-
-## Tasks/Tickets
+## Tasks and Tickets
 1. Create the github - **Points: 2**
 2. Create the readme - **Points: 1**
 3. Create initial scaffolding - **Points: 1**
@@ -59,40 +58,33 @@
 19. Create entity models for Rating - **Points: 3**
 
 
-## Acceptance Criteria/Tests
-**User story 1:** Post’s game without required fields- Get’s 400 error “[field] is required”
-**User story 1:** Post game successfully - gets 200 Ok, “Game added successfully”
+## Acceptance Criteria and Tests
 
-**User story 2:** Updates game successfully - gets 200 OK, “Game updated successfully”, returns game
-**User story 2:** Updates game without required fields - Gets 400 error “[field] is required”
-**User story 2:** Tries to update a game that does not exist - Gets 404 error
-
-**User story 3:** Deletes game successfully - gets 200 OK, “Game deleted successfully”
-**User story 3:** Tries to delete a game that does not exist - Gets 404 error
-
-**User story 4:** Get ratings from a user that doesn’t exist - 400 error “User doesn’t exist”
-**User story 4:** Get ratings from a valid user id - 200 Ok
-
-**User story 5:** Get title by valid id - 200 ok with information from game data table
-**User story 5:** Get title with invalid id - 400 error “Game with that Id doesn’t exist”
-
-**User story 6:** Get Games by genre - 200 returns all games with the selected genre
-**User story 6:** Get games by genre in which no games exist - 400 error “No games exist within genre”
-
-**User story 7:** Get All games that have the selected system - 200 ok returns all games on that system
-**User story 7:** Get all games on a system that doesn’t exist, 400 error “We do not have that system in our database”
-
-**User story 8:** Post a new rating for a game - 200 ok Posts attached to game
-**User story 8:** Posts a new rating 
-
-**User story 9:** Search game by title – Should return Game Title with Star Ratings
-**User story 9:** Users did not enter a valid title – Should Return 404 error 
-
-**User story 10:** Game maturity rating E, T– Return True Is Kid Friendly - 200 Ok
-**User story 10:** Game maturity rating M – Return False Is NOT kid friendly - 200 Ok
-
-**User story 11:** Search games by specified rating – Return 200 Ok
-**User story 11:** Search games with incorrect int – Return 400 error 
+User Story | Acceptance Criteria/Tests
+-----------| -------------------------
+**User story 1** | Post’s game without required fields- Get’s 400 error “[field] is required”
+**User story 1** | Post game successfully - gets 200 Ok, “Game added successfully”
+**User story 2** | Updates game successfully - gets 200 OK, “Game updated successfully”, returns game
+**User story 2** | Updates game without required fields - Gets 400 error “[field] is required”
+**User story 2** | Tries to update a game that does not exist - Gets 404 error
+**User story 3** | Deletes game successfully - gets 200 OK, “Game deleted successfully”
+**User story 3** | Tries to delete a game that does not exist - Gets 404 error
+**User story 4** | Get ratings from a user that doesn’t exist - 400 error “User doesn’t exist”
+**User story 4** | Get ratings from a valid user id - 200 Ok
+**User story 5** | Get title by valid id - 200 ok with information from game data table
+**User story 5** | Get title with invalid id - 400 error “Game with that Id doesn’t exist”
+**User story 6** | Get Games by genre - 200 returns all games with the selected genre
+**User story 6** | Get games by genre in which no games exist - 400 error “No games exist within genre”
+**User story 7** | Get All games that have the selected system - 200 ok returns all games on that system
+**User story 7** | Get all games on a system that doesn’t exist, 400 error “We do not have that system in our database”
+**User story 8** | Post a new rating for a game - 200 ok Posts attached to game
+**User story 8** | Posts a new rating 
+**User story 9** | Search game by title – Should return Game Title with Star Ratings
+**User story 9** | Users did not enter a valid title – Should Return 404 error 
+**User story 10** | Game maturity rating E, T– Return True Is Kid Friendly - 200 Ok
+**User story 10** | Game maturity rating M – Return False Is NOT kid friendly - 200 Ok
+**User story 11** | Search games by specified rating – Return 200 Ok
+**User story 11** | Search games with incorrect int – Return 400 error 
 
 
 ## Sprint Planning
@@ -113,9 +105,16 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![PlanITpoker](./img/PlanITpoker.png)
 
+[PlanITPoker](https://www.planitpoker.com/board/#/room/eee6c51b6bec4287811e1d19a3dcdb0c)
+
+![Trello](./img/trello.png)
+
+[Trello Board](https://trello.com/b/DodphMPn/agile-project)
+
+## Comments
+Our team utilized [Google Docs](https://docs.google.com/document/d/1YqDcv0aGMZpOtgycv4oMWGr1yNjSMZVFnThtslkSxrw), Zoom, [PlanITPoker](https://www.planitpoker.com/board/#/room/eee6c51b6bec4287811e1d19a3dcdb0c), and [Trello Board](https://trello.com/b/DodphMPn/agile-project) to collaborate and complete this assignment. 
 
 ## Created By
 - Ben Ellis
