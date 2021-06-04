@@ -105,11 +105,11 @@ User Story | Acceptance Criteria/Tests
 
 
 ## Screenshots
-![PlanITpoker](./img/PlanITpoker.png)
+![PlanITpoker](https://github.com/redeyedrabbit/AgileProject/blob/develop/img/PlanITpoker%20.png)
 
 [PlanITPoker](https://www.planitpoker.com/board/#/room/eee6c51b6bec4287811e1d19a3dcdb0c)
 
-![Trello](./img/trello.png)
+![Trello](https://github.com/redeyedrabbit/AgileProject/blob/develop/img/trello.PNG)
 
 [Trello Board](https://trello.com/b/DodphMPn/agile-project)
 
